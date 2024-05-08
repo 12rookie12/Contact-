@@ -5,6 +5,7 @@ body{
     text-align: center;
     background-color: white;
     border: 3px solid rgb(201, 255, 6);
+    border-radius: 15%;
     padding-top: 1px;
     padding-bottom: 20px;
     margin-left: 450px;
@@ -16,7 +17,7 @@ body{
     background-color: green;
     text-transform: uppercase;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 19px;
     letter-spacing: 3px;
     font-style:oblique;
 }
