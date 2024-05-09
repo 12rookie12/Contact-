@@ -7,10 +7,11 @@ body{
 .headline{
     word-spacing: 5px;
     color: white;
+    font-size: 50px;
 }
 .main{
     text-align: center;
-    border:solid yellow 5px;
+    border:solid yellow 0px;
     margin-top: 150px;
     margin-left: 200px;
     margin-right: 200px;
@@ -25,45 +26,91 @@ body{
     color: rgb(5, 5, 5);
     border: solid 5px rgb(250, 252, 252);
     border-radius: 45px;
-    padding: 5px;
+    padding: 10px;
     background-color: white;
     text-decoration: none;
 }
 .href1{
-    color: rgb(5, 5, 5);
+    color:white;
     border: solid 5px rgb(250, 252, 252);
     border-radius: 45px;
-    padding: 5px;
-    background-color: white;
+    padding: 10px;
+    background-color:transparent;
     text-decoration: none;
     margin-left: 25px;
 }
-.sec{
-    border: 1px solid yellow  ;
-    display: flex;
-    flex-wrap: wrap;
+/* .just{
+    color: black;
+} */
+.yes{
+    
+    color: rgb(5, 5, 5);
     text-align: center;
-    margin-bottom: 50px;
-    /* margin-top: 10px; */
     
 }
 .box1{
-    text-align: center;
-    border: 1px solid yellow;
-    width: 100px;
-    height: 100px;
-    color: white;
-    position: relative;
-    /* padding-bottom: 45px;
-    padding-top: 15px; */
-    padding: 10px 50px 50px 50px;
+    float: left;
+    border: 1px solid brown;
     border-radius: 25px;
-    margin-right: 50px;
-    margin-left: 250px;
-    line-height: 75px;
-}
+    margin: 10px 50px 25px 370px;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    width:168px;
+    height:139px;
+    
+    background-color: white;
 
+}
+.box2{
+    float: left;
+    border: 1px solid brown;
+    border-radius: 25px;
+    position: relative;
+    margin: 10px 50px 25px 70px;
+    text-align: center;
+    background-color: white;
+    width:168px;
+    height:139px;
+}
+.box3{
+    float: left;
+    border: 1px solid brown;
+    border-radius: 25px;
+    position: relative;
+    margin: 10px 50px 25px 70px;
+    text-align: center; 
+    background-color: white;
+    width:168px;
+    height:139px;
+    padding-bottom: 4px;
+}
+.box4{
+    float: left;
+    border: 1px solid brown;
+    border-radius: 25px;
+    position: relative;
+    margin: 10px 50px 25px 70px;
+    text-align: center;
+    background-color: white;
+    width:168px;
+    height:139px;
+}
 .first{
-    width: 50px;
-    height: 50px;
+    height: 99px;
+    width: 99px;
+    
+}
+.second{
+    height:102px;
+    width: 131px;
+}
+.hush{
+    font-weight: 600;
+    line-height: 3px;
+}
+.First{
+    height: 99px;
+    width: 99px;
+    padding-top: 2px;
 }
